@@ -1,0 +1,21 @@
+{
+  "name": "aitm-mom",
+  "version": "1.0.0",
+  "description": "Minutes of Meeting Management System for AITM",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["meeting", "minutes", "college", "management"],
+  "author": "AITM",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.4",
+    "nodemailer": "^7.0.5"
+  }
+}
